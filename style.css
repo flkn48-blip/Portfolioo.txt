@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
  /* ===== RÉINITIALISATION (Reset) ===== */
         * {
             margin: 0;
@@ -7,12 +8,12 @@
 
         /* ===== STYLES GLOBAUX (Design Apple) ===== */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
             color: #1d1d1f;
             background-color: #ffb3c1;
+            min-height: 100vh;
             line-height: 1.6;
         }
-
+     
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -21,14 +22,14 @@
 
         /* ===== HEADER / NAVIGATION ===== */
         header {
-            background-color: #f7037dd5;
+            background-color: #7a1f3d;
             border-bottom: 1px solid #ffffff;
             padding: 20px 0;
             position: sticky;
             top: 0;
             z-index: 100;
             backdrop-filter: blur(20px);
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color:#F2B6C6;
         }
 
         nav {
@@ -62,7 +63,7 @@
 
         /* ===== HERO SECTION ===== */
         .hero {
-            background-color: #ffffff;
+            background-image: url(img5.png.png);
             color: #1d1d1f;
             padding: 120px 0;
             text-align: center;
@@ -82,31 +83,34 @@
 
         .hero p {
             font-size: 1.3rem;
-            color: #6f6f74;
+            color: #1a1a1a;
             margin-bottom: 40px;
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
             line-height: 1.6;
             font-weight: 400;
-        }
+            
+            }
+
 
         .cta-button {
             display: inline-block;
-            background-color: #a4133c;
+            background-color: #99294e;
             color: white;
             padding: 14px 32px;
             border-radius: 980px;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s;
-            font-size: 1.05rem;
+            font-size: 1.2rem;
+            font-family:  "Dancing Script", cursive;
         }
     
 
         /* ===== ABOUT SECTION ===== */
         .about {
-            background-color: #ffffff;
+            background-color: #F2B6C6;
             padding: 120px 0;
         }
 
@@ -150,7 +154,7 @@
 
         .about-text p {
             font-size: 1.1rem;
-            color: #6f6f74;
+            color: #6B6B6B;
             margin-bottom: 24px;
             line-height: 1.8;
             font-weight: 400;
@@ -158,7 +162,7 @@
 
         /* ===== SKILLS SECTION ===== */
         .skills {
-            background-color: #f5f5f7;
+            background-color: #FCE7ED;
             padding: 120px 0;
         }
 
@@ -172,7 +176,7 @@
         }
 
         .skill-card {
-            background: white;
+            background: linear-gradient(135deg,#C7DCD1 5%,#F6D6DE 80%, #C7DCD1 100%);
             padding: 40px;
             border-radius: 20px;
             text-align: center;
@@ -203,7 +207,7 @@
 
         /* ===== PROJECTS SECTION ===== */
         .projects {
-            background-color: #ffffff;
+            background-color: #f9c8d6;
             padding: 120px 0;
         }
 
@@ -220,7 +224,7 @@
             gap: 40px;
             align-items: center;
             padding: 40px;
-            background: #f5f5f7;
+            background: #FCE7ED;
             border-radius: 20px;
             transition: all 0.3s;
         }
@@ -233,7 +237,7 @@
         .project-image {
             width: 40%;
             min-height: 300px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #F6D6DE 40%, #C7DCD1 100%);
             border-radius: 16px;
             display: flex;
             align-items: center;
@@ -248,6 +252,7 @@
         }
 
         .project-content h3 {
+            font-family:  "Dancing Script",cursive ;
             font-size: 1.8rem;
             font-weight: 700;
             color: #1d1d1f;
@@ -275,7 +280,7 @@
 
         /* ===== CONTACT SECTION / FORM ===== */
         .contact {
-            background-color: #f5f5f7;
+            background-color: #FCE7ED;
             padding: 120px 0;
         }
 
@@ -326,7 +331,7 @@
         }
 
         .submit-button {
-            background-color: #a4133c;
+            background-color: #99294e;
             color: white;
             padding: 14px;
             border: none;
@@ -340,7 +345,7 @@
 
                /* ===== FOOTER ===== */
         footer {
-            background-color: #f5f5f7;
+            background-color: #fcd5ce;
             color: #6f6f74;
             padding: 60px 0;
             text-align: center;
@@ -387,7 +392,7 @@
             font-size: 0.85rem;
             color: #a1a1a6;
             padding-top: 40px;
-            border-top: 1px solid #e5e5e7;
+            border-top: 1px solid #d85d3e;
         }
 
         /* ===== MEDIA QUERIES (RESPONSIVE) ===== */
