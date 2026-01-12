@@ -43,8 +43,8 @@
             font-weight: 600;
             letter-spacing: -0.5px;
         }
-
-        .nav-links {
+        
+        .nav-links { 
             display: flex;
             list-style: none;
             gap: 40px;
@@ -52,11 +52,27 @@
 
         .nav-links a {
             color: #1d1d1f;
+            position: relative;
             text-decoration: none;
             font-weight: 500;
             font-size: 1rem;
             transition: opacity 0.3s;
         }
+       .nav-links a:hover::after {
+    width: 100%;            /* La barre s'étire de gauche à droite */
+}
+      .nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    width: 0%;              /* Largeur 0 au début */
+    height: 2px;            /* Épaisseur de la barre */
+    
+    background-color:#ffffff; /* La barre est beige */
+    transition: width 0.3s ease; /* L'animation d'étirement */
+}
 
       
 
@@ -97,6 +113,7 @@
             display: inline-block;
             background-color: #99294e;
             color: white;
+            border: 2px solid transparent;
             padding: 14px 32px;
             border-radius: 980px;
             text-decoration: none;
@@ -105,8 +122,21 @@
             font-size: 1.2rem;
             font-family:  "Dancing Script", cursive;
         }
-    
-
+         .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 10px #009dff,
+0 0 20px #009dff,
+0 0 40px #009dff,
+inset 0 0 10px #ffffff;
+text-shadow: 
+0 0 10px #00d9ff,
+0 0 20px #00d9ff,
+0 0 40px #00d9ff;
+   
+  
+  
+}
+        
         /* ===== ABOUT SECTION ===== */
         .about {
             background-color: #F2B6C6;
@@ -184,7 +214,10 @@
             transition: all 0.3s;
         }
       
-
+         .skill-card:hover {
+            transform: translateY(-10px);
+             
+        }
         .skill-icon {
             font-size: 3.5rem;
             margin-bottom: 20px;
@@ -339,6 +372,10 @@
             cursor: pointer;
             transition: all 0.3s;
             margin-top: 16px;
+        }
+        .submit-button:hover{
+            transform: translateY(-10px);
+             
         }
 
                /* ===== FOOTER ===== */
