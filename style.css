@@ -216,6 +216,14 @@ text-shadow:
       
          .skill-card:hover {
             transform: translateY(-10px);
+            box-shadow: 0 0 10px #EFB3C3,
+0 0 20px #E08FA8,
+0 0 40px #D46A8C,
+inset 0 0 10px #ffffff;
+text-shadow: 
+0 0 10px #C95A7C,
+0 0 20px #EC4899,
+0 0 40px #B84A6A;
              
         }
         .skill-icon {
@@ -268,6 +276,7 @@ text-shadow:
 
         .project-image {
             width: 40%;
+        
             min-height: 300px;
             border-radius: 16px;
             display: flex;
