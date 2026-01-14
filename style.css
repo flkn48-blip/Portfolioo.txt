@@ -124,14 +124,14 @@
         }
          .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 0 10px #009dff,
-0 0 20px #009dff,
-0 0 40px #009dff,
-inset 0 0 10px #ffffff;
+            box-shadow: 0 0 10px #F2B6C6,
+0 0 20px #D46A8C,
+0 0 40px #D46A8C,
+inset 0 0 10px red;
 text-shadow: 
-0 0 10px #00d9ff,
-0 0 20px #00d9ff,
-0 0 40px #00d9ff;
+0 0 10px #F2B6C6,
+0 0 20px #D46A8C,
+0 0 40px #D46A8C;
    
   
   
